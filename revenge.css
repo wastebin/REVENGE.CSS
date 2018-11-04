@@ -158,7 +158,7 @@ button.disabled:not([disabled])::after,
 ----------------------------------------------------------------------
 */
 
-a:not([href])::after {
+a:not([href]):not([name])::after {
    content: 'Do you mean for this to be a link or a <button>? It does not link to anything!' !important;
 }
 
